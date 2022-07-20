@@ -14,6 +14,11 @@ const routes = [
     path: "/table",
     component: () => import("@/views/table.vue"),
   },
+  {
+    path: "/advert",
+    name: "advert",
+    component: () => import("../views/advait.vue"),
+  },
 ];
 
 const router = new VueRouter({
