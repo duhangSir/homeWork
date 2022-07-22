@@ -19,6 +19,11 @@ const routes = [
     name: "advert",
     component: () => import("../views/advait.vue"),
   },
+  {
+    path: "/form",
+    name: "form",
+    component: () => import("../views/Form.vue"),
+  },
 ];
 
 const router = new VueRouter({
