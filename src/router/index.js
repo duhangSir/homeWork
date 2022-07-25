@@ -24,6 +24,12 @@ const routes = [
     name: "form",
     component: () => import("../views/Form.vue"),
   },
+  
+  {
+    path: '/upload',
+    name: 'upload',
+    component: () => import('../views/Upload.vue')
+  }
 ];
 
 const router = new VueRouter({
